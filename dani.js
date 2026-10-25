@@ -25,3 +25,15 @@ if (brojDana >= 1 && brojDana <= 5) {
     posebnaPoruka = "Vikend na Vidiku!";
   }
 } 
+
+else {
+  vrstaDana = "neradni dan";
+
+  if (brojDana === 0) {
+    nazivDana = "Nedjelja";
+    posebnaPoruka = "nedjelja je dobra ak je dan nakon praznik/nema škole";
+  } else {
+    nazivDana = "Subota";
+    posebnaPoruka = "TOOOOOOOOO";
+  }
+}
