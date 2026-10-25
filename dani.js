@@ -5,9 +5,9 @@ var nazivDana = "";
 var vrstaDana = "";
 var posebnaPoruka = "";
 
-
 if (brojDana >= 1 && brojDana <= 5) {
   vrstaDana = "radni dan";
+
   if (brojDana === 1) {
     nazivDana = "Ponedjeljak";
     posebnaPoruka = "Ja najviše volim JS od svih programskih jezika";
@@ -24,9 +24,7 @@ if (brojDana >= 1 && brojDana <= 5) {
     nazivDana = "Petak";
     posebnaPoruka = "Vikend na Vidiku!";
   }
-} 
-
-else {
+} else {
   vrstaDana = "neradni dan";
 
   if (brojDana === 0) {
@@ -36,4 +34,11 @@ else {
     nazivDana = "Subota";
     posebnaPoruka = "TOOOOOOOOO";
   }
+}
+
+console.log("Danas je: " + nazivDana);
+console.log("To je " + vrstaDana + ".");
+
+if (posebnaPoruka !== "") {
+  console.log(posebnaPoruka);
 }
